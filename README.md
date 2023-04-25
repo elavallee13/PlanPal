@@ -18,3 +18,8 @@ One of the unique features of PlanPal is the ability to save notes for different
 
 Conclusion
 PlanPal is a powerful scheduling app that makes it easy to manage your busy schedule. With its unique features and intuitive interface, PlanPal stands out as a top choice for individuals looking to stay organized and focused.
+
+
+
+Deployed HTML - https://elavallee13.github.io/PlanPal/
+GitHub Repo - https://github.com/elavallee13/PlanPal<img width="1182" alt="Screenshot 2023-04-25 at 1 37 20 PM" src="https://user-images.githubusercontent.com/126723001/234370868-ff5f00fa-d8db-4fa1-b857-8c3e115fc800.png">
