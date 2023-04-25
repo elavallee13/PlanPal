@@ -14,7 +14,7 @@ function updateSchedule() {
       $(this).addClass("past");
       $(this).removeClass("present future");
     }
-    else if (blockHour === currentHour) {
+    else if (blockHour == currentHour) {
       $(this).addClass("present");
       $(this).removeClass("past future");
     }
