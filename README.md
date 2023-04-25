@@ -1,4 +1,4 @@
-# Work_Day_Scheduler
+# PlanPal
 Third-Party APIs Challenge Module 5
 
 PlanPal
