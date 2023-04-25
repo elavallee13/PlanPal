@@ -1,59 +1,73 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  background-color: #202020;
 }
 
-textarea {
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
-}
-
-.description {
-  white-space: pre-wrap;
-}
-
-.time-block {
-  border-radius: 15px;
-}
-
-.row {
-  border-top: 1px solid white;
-}
-
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
-}
-
-.past {
-  background-color: #d3d3d3;
+header {
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
+/* set default styles for all boxes */
+.time-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  flex-basis: 50%;
+  padding-right:10px;
+}
+
+/* styles for past times */
+.past {
+  background-color: #9c9c9c;
+  color: #000;
+}
+
+/* styles for present time */
 .present {
   background-color: #ff6961;
-  color: white;
 }
 
+/* styles for future times */
 .future {
-  background-color: #77dd77;
-  color: white;
+  background-color: #40af40;
 }
 
+/* styles for save button */
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  background-color: #4dbdff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+  width: 50px;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
+/* styles for save button in the past */
+.past .saveBtn {
+  background-color: #bebec3;
+  cursor: not-allowed;
+}
+
+/* styles for save button in the present */
+.present .saveBtn {
+  background-color: #ff5650;
+}
+
+/* styles for save button in the future */
+.future .saveBtn {
+  background-color: #000000;
+}
+
+.saveBtn:hover {
+  background-color: #ffffff;
+  transform: scale(1.1);
 }
